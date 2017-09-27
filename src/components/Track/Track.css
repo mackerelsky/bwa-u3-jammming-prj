@@ -4,14 +4,17 @@
   border-bottom: 1px solid rgba(256, 256, 256, 0.8);
 }
 
-.Track-action {
+.Track-action button {
+  color:#fff;
+  border:0;
   cursor: pointer;
   padding: .5rem;
   font-size: 1.05rem;
   transition: color .25s;
+  background-color: transparent;
 }
 
-.Track-action:hover {
+.Track-action button:hover {
   color: rgba(265, 265, 265, .5);
 }
 
